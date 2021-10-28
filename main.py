@@ -63,7 +63,6 @@ def count_down(count):
 	else:
 		start_timer()
 
-
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomodoro")
@@ -88,10 +87,6 @@ reset_button.grid(row=2, column=2)
 
 check_label = Label(window, bg=YELLOW, fg=GREEN, font=(FONT_NAME, 20, "bold"))
 check_label.grid(row=3, column=1)
-
-
-
-
 
 window.mainloop()
 
